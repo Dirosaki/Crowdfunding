@@ -14,7 +14,7 @@ function menuToggle() {
         body.style.overflowY = 'hidden';
     } else {
         isOpen = false;
-        menu.src = "../images/icon-hamburger.svg";
+        menu.src = "./images/icon-hamburger.svg";
         body.style.overflowY = 'auto';
     }
 }
