@@ -10,7 +10,7 @@ function menuToggle() {
     openOverlay('menu');
     if(!isOpen) {
         isOpen = true;
-        menu.src = "../images/icon-close-menu.svg";
+        menu.src = "./images/icon-close-menu.svg";
         body.style.overflowY = 'hidden';
     } else {
         isOpen = false;
