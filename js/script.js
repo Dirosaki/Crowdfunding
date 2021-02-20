@@ -3,6 +3,8 @@ const body = document.querySelector('body');
 const menu = document.querySelector('.menu');
 const menuNav = document.querySelector('.menu-navegation');
 
+import closeIcon from '../images/icon-close-menu.svg';
+
 let isOpen = false;
 
 function menuToggle() {
@@ -10,7 +12,7 @@ function menuToggle() {
     openOverlay('menu');
     if(!isOpen) {
         isOpen = true;
-        menu.src = "../images/icon-close-menu.svg";
+        menu.src = `${closeIcon}`;
         body.style.overflowY = 'hidden';
     } else {
         isOpen = false;
